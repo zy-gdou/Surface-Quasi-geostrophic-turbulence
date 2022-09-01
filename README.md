@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @zy-gdou
 - 👀 I’m interested in CFD simulations with applications to oceanic and atmospheric dynamics using mainly MATLAB
-- 🌱 I’m currently working on the Surface Quasi-geostrophic dynamics(and its high-order variants) 
-
+- 🌱 I’m currently working on the a few idealized numerical models to capture the flows in some experiments
 
 
 <!---
