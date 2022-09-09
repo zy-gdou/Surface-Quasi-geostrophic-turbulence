@@ -4,7 +4,7 @@
 
 "beta-SQG/" adds the $\beta$-effect in the classic SQG current. There one can explore the Rossby wave dynamics, the Rhines scales and stuff related to the $\beta$-effect.
 
-One should note that the SQG model is still constrained by the assumption of small Rossby number. At submesoscales, the Rossby number is cannot necessarily small and nonlinear advectoin could play a significant role. In order to better resolve the nonlinearity under a small Rossby number, two high-order (in terms of the Rossby number) variants of the SQG model are proposed: the SQG+1 model and the SSG model.
+One should note that the SQG model is still constrained by the assumption of small Rossby number. At submesoscales, the Rossby number is not necessarily small and the nonlinear advectoin  plays a significant role. In order to better resolve the nonlinearity but given a small Rossby number, two high-order (in terms of the Rossby number) variants of the SQG model are proposed: the SQG+1 model and the SSG model.
 "SSG/" contains the codes used for a free-decaying SSG turbulence.
 
 
