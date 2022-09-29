@@ -6,7 +6,7 @@
 
 However, the SQG model is still constrained by the assumption of small Rossby number. At submesoscales, the Rossby number is not necessarily small and nonlinear advectoin plays a significant role. In order to better capture the nonlinearity under a small Rossby number, two high-order (in terms of the Rossby number) variants of the SQG model are proposed: the SQG+1 model and the SSG model.
 
-"SSG/" contains the codes used for a free-decaying SSG turbulence.
+"SSG/" contains the code used for free-decaying SSG turbulence.
 
 
 
