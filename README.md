@@ -7,7 +7,4 @@ Surface buoyancy perturbation is conserved with the parcel in the SQG flow. When
 
 However, the SQG model is still constrained by the assumption of the small Rossby number. At submesoscales, the Rossby number is not necessarily small and nonlinear advectoin plays a significant role. In order to better capture the nonlinearity but still under a small Rossby number, two high-order (in terms of the small Rossby number expansion) variants of the SQG model are proposed: the SQG+1 model and the SSG model.
 
-"SSG/" contains the code used for free-decaying SSG turbulence.
-
-
-
+"SSG/" contains the code for the free-decaying surface semi-gesotrophic turbulence by Ragon and Badwin 2016JFM paper. They reformulated the SQG model in the geostrophic coordinate system and numerically solved for the stream function there. After a oordinate transfer  back to the physical coordinate system, the nonlinear effects(under a small Rossby number) manifest themselves as a globally-warmming trend at the surface(of the ocean) and a dominance of cold cyclones seeded in a background of warm filaments/fronts. 
