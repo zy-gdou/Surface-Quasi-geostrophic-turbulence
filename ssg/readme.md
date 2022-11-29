@@ -3,7 +3,7 @@ This is a numerical model for the surface semi-geostrophic turbulence by followi
 1. def_char_scales.m
 2. def_grid.m deinfes the 2D horizontal grid $(X,Y)$ for the geostrophic coordinate system. The governning equations are discretiszed in the $(X,Y)$ grid using a Fourier-based spectral method, however the nonlinear advection term takes Arakawa's 9-points scheme which conserves both kinetic energy and enstrophy(in this case $b_s^2$). The Arakawa nonlinear term is formulated in
 3. Jac_Arakawa.m
-4. def_ini_bs.m defines the initial field for the surface buoyancy perturbation $bs(X,Y)$ whose spectral sturcture is kept the same as eq.4.2 in the reference paper and an arbitary (nondimensional) amplitude could be assigned.
+4. def_ini_bs.m defines the initial field for the surface buoyancy perturbation $b_s(X,Y)$ whose spectral sturcture is kept the same as eq.4.2 in the reference paper and an arbitary (nondimensional) amplitude could be assigned.
 5. def_2irds_cutoff_filter.m defines a spectral filter in the $(k_X,k_Y)$ wavenumber space which suppress the numerical instability
 6. phi_from_bs.m calcualtes the SSG streamfunction in the $(X,Y)$ domain  using the surface buoyancy $bs(X,Y)$ after each time step
 7. coorTrans.m is used only for postprocessing. It transfers the field in $(X,Y)$ domian back to the physical domian before presenting, where a fixed-point iteration method is employed(see Appendix B in the reference paper for details of the method)
