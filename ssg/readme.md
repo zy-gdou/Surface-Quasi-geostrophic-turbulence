@@ -5,5 +5,5 @@ This is a numerical model for the surface semi-geostrophic turbulence by followi
 3. Jac_Arakawa.m
 4. def_ini_bs.m defines the initial field for the surface buoyancy perturbation $b_s(X,Y)$ whose spectral sturcture is kept the same as eq.4.2 in the reference paper and an arbitary (nondimensional) amplitude could be assigned.
 5. def_2irds_cutoff_filter.m defines a spectral filter in the $(k_X,k_Y)$ wavenumber space which suppress the numerical instability
-6. phi_from_bs.m calcualtes the SSG streamfunction in the $(X,Y)$ domain  using the surface buoyancy $bs(X,Y)$ after each time step
+6. phi_from_bs.m calcualtes the SSG streamfunction in the $(X,Y)$ domain  using the surface buoyancy $b_s(X,Y)$ after each time step
 7. coorTrans.m is used only for postprocessing. It transfers the field in $(X,Y)$ domian back to the physical domian before presenting, where a fixed-point iteration method is employed(see Appendix B in the reference paper for details of the method)
