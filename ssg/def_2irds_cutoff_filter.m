@@ -3,9 +3,9 @@
 
 kn=[0:ng/2,-ng/2+1:-1];
 ci=0;
-for i=1:numel(kn)
+for ii=1:numel(kn)
     ci=ci+1;
-    kn_label{ci}=num2str(kn(i));
+    kn_label{ci}=num2str(kn(ii));
 end
 kn=kn/ng*2;
 Hou_filter.alpha=36;

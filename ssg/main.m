@@ -45,10 +45,12 @@ while T<T_max
     T=T+dt;
     niter=niter+1;
     
-    if mod(niter,100)==0
+    if mod(niter, outfreq)==0
         imagesc( real(ifft2(bs_f))  );
-        colorbar;title(['b_s(X,Y) T=',num2str(T)])
-        pause(0.05)
+        out_filename=['T=',num2str(T)];
+        colorbar;title(['b_s(X,Y) ',out_filename])
+        print(gcf,[out_filename],'-r200','-dpng')
+        pause(0.05);
     end
     
 end
